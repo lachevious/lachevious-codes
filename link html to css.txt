@@ -1,0 +1,14 @@
+When linking an HTML file and a CSS file together, the <link> element will look like the following:
+
+<link href="https://www.codecademy.com/stylesheets/style.css" type="text/css" rel="stylesheet">
+
+Note that in the example above the path to the stylesheet is a URL:
+
+https://www.codecademy.com/stylesheets/style.css
+
+Specifying the path to the stylesheet using a URL is one way of linking a stylesheet.
+
+If the CSS file is stored in the same directory as your HTML file, then you can specify a relative path instead of a URL, like so:
+
+<link href="/style.css" type="text/css" rel="stylesheet">
+Using a relative path is very common way of linking a stylesheet.
